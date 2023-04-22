@@ -35,6 +35,14 @@ body {
     margin: 2%;
 }
 
+ul li {
+    color: #FD98A1;
+}
+
+ol > li {
+    color: #FD98A1;
+}
+
 section.attend, section.agenda, section.extra, section.media {
     border-style: outset;
     border-color: whitesmoke;
@@ -64,6 +72,18 @@ li.attend {
     margin-left: 20px;
     margin-bottom: 0px;
 }
+
+h3, h3 ~ h4 {
+    color: #FB6176;
+}
+
+section.spacer + section {
+    color: #FEB3B6;
+}
+
+a[href*="first"], a[href*="second"] {
+    color: #FC7C8B;
+  }
 
 a.agenda:hover {
     color: #FEB3B6;
