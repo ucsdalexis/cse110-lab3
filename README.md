@@ -1,3 +1,3 @@
-# Lab 2
+# Lab 3
 
-This is the link to [site](https://ucsdalexis.github.io/cse110_lab2/)
+This is the link to [site](https://ucsdalexis.github.io/sp23-cse110-lab3/)
