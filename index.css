@@ -1,0 +1,113 @@
+* {
+    font-family: 'Ysabeau', sans-serif;
+}
+
+/* header section */
+header {
+    border: 1px outset whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 15px;
+}
+
+.header {
+    text-align: right;
+    padding-right: 15px;
+}
+
+h1.header {
+    color: #F94560;
+}
+
+h2.header {
+    color: #FB6176;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+/* body section */
+body {
+    background-color: hsl(0,0,80%);
+}
+
+.spacer {
+    margin: 2%;
+}
+
+section.attend, section.agenda, section.extra, section.media {
+    border-style: outset;
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-radius: 10px;
+    
+    margin: 5%, 0px, 0px, 0px;
+    padding: 20px, 0px, 0px, 0px;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+}
+
+h3.attend {
+    text-decoration: #FEB3B6 wavy underline;
+    position: static;
+}
+
+.attend {
+    padding-left: 10px;
+}
+
+details.attend, details.media {
+    padding-bottom: 20px;
+}
+
+li.attend {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+a.agenda:hover {
+    color: #FEB3B6;
+    display: block;
+}
+
+a.agenda:active {
+    color: #FEB3B6;
+    display: inline;
+}
+
+div#images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+div#audio {
+    display: grid;
+    grid-template-columns: 500px 500px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+img.media {
+    width: 800px;
+    max-width: 50%;
+}
+
+audio.media {
+    display: block;
+    height: 70px;
+    max-width: 50%;
+    min-width: 10%;
+}
+
+/* media screens */
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    img.media {
+        width: 400px;
+        max-width: 30%;
+    }
+}
