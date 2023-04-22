@@ -3,148 +3,95 @@
   <head>
     <meta charset="UTF-8">
     <meta name="author" content="Alexis Chao">
-    <title>Fake Meeting Minutes</title>
+    <title>Meeting Minutes Template</title>
     <link rel="icon" type="image/x-icon" href="/images/panda.png">
   </head>
   <body>
     <header>
-      <h1><strong>group 29's</strong> first meeting</h1>
-      <h2>brainstorming</h2>
-      <h2><a href="https://www.wincalendar.com/Calendar/Date/April-16-2023" target="_blank">sunday</a> april 16, 2023</h2>
+      <h1>title <i>(ex. intro meeting with TA)</i></h1>
+      <h2>subtitle <i>(ex. introductions)</i></h2>
+      <h2>date <i>(ex. monday april 17, 2023)</i></h2>
       <hr>
-
     </header>
-
-    <nav>
-      <a href="/index.html">blank</a> |
-      <a href="/#">blank</a> |
-      <a href="/#">blank</a> |
-      <a href="/#">blank</a>
-    </nav>
 
     <main>
       <section>
-        <h3>attendance list</h3>    
-        <ul>
-            <li><span><b>alexis chao</b></span></li>
-            <li>team member</li>
-            <li>team member</li>
-            <li>team member</li>
-            <li>team member</li>
-            <li>team member</li>
-            <li>team member</li>
-        </ul>  
+        <h3>attendance list</h3>   
+        <details>
+          <summary>click arrow to see the list of people</summary>
+          <ul>
+              <li>person 1</li>
+              <li>person 2</li>
+              <li>person 3</li>
+              <li>person 4</li>
+              <li>person 5</li>
+          </ul>  
+        </details>
       </section>
       
       <section>
         <h3>agenda</h3>    
         <ol>
-            <li>figure out team member roles</li>
-            <li>figure out what topics interest most group members</li>
-            <li>figure out what topic to focus project on</li>
+            <li><a href="#first">first main point</a></li>
+            <li><a href="#second">second main point</a></li>
         </ol>  
-      </section>
-        
-      <section>
-        <h3>unfinished business</h3>    
-        <ul>
-            <li>n/a (first meeting)</li>
-        </ul>  
       </section>
 
       <section>
-        <h3>new business</h3>    
+        <h4 id="first">first main point</h4>    
         <ul>
-            <li>team member roles</li>
-            <li>topics that interest most group members</li>
-            <li>topic to focus project on</li>
+            <li>first point
+                <ul>
+                    <li>sub-item</li>
+                    <li>sub-item</li>
+                    <li>sub-item</li>
+                </ul>
+            </li>
+            <li>second point
+                <ul>
+                    <li>sub-item</li>
+                </ul>
+            </li>
+            <li>third point</li>
+        </ul> 
+
+        <h4 id="second">second main point</h4>    
+        <ul>
+          <li>first point
+            <ul>
+                <li>sub-item</li>
+                <li>sub-item</li>
+                <li>sub-item</li>
+            </ul>
+          </li>
+          <li>second point
+            <ul>
+                <li>sub-item</li>
+            </ul>
+          </li>
+          <li>third point</li>
         </ul> 
       </section> 
 
       <section> 
         <h3>comments/questions/concerns</h3>    
         <ul>
-            <li>how much ai should we impliment into our project?</li>
-            <li>is the use of ai required for our project?</li>
+            <li>make sure to get team building meeting done as soon as possible</li>
         </ul> 
       </section>
 
       <section>
-        <h3>images</h3>
-        <img src="images/group29.png" alt="group 29 generall chat" width="600"> 
-      </section>
-
-      <section>
-        <h3>audio record</h3>
-        <div>
-          <p>click <em>play</em> button to play music:</p>
-          <audio controls> 
-            <source src="/audio/Mayonaka_no_Door.mp3" type="audio/mpeg">
-          </audio>
-        </div>
-      </section>
-
-      <section>
-        <h3>video record</h3>
+        <h3>audio/video record</h3>
           <details>
-            <summary>click arrow to see video</summary>
-            <video width="600" controls>
-              <source src="video/squirel.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+            <summary>click arrow to see only audio</summary>
+            <audio controls name="audio">
+              <source src="audio\april_17_2023.m4a" type="audio/mp4">
+              Your browser does not support the audio tag.
+            </audio>
           </details>
       </section>
       <br>
     </main>
-
-    <form action="/action_page.php" method="get">
-      <fieldset>
-        <legend>User Form:</legend>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="todaydate">Today's Date:</label>
-        <input type="date" id="todaydate" name="todaydate"><br><br>
-
-        <label for="year">Choose your year from the list:</label>
-        <input list="years" name="year" id="year">
-        <datalist id="years">
-          <option value="1st">
-          <option value="2nd">
-          <option value="3rd">
-          <option value="4rd">
-        </datalist> <br>
-        <label for="major">Choose a major you are in:</label>
-        <select name="major" id="major">
-          <option value="computer science">computer science</option>
-          <option value="computer engineering">computer engineering</option>
-          <option value="math-cs">math-cs</option>
-          <option value="other">other</option>
-        </select>
-        <br><br>
-
-        <label for="cse110">Currently Taking CSE110:</label>
-        <input type="checkbox" id="cse110" name="cse110"><br>
-
-        <p>Age Range:</p>
-        <input type="radio" id="age1" name="age" value="16">
-        <label for="age1">16 - 17</label><br>
-        <input type="radio" id="age2" name="age" value="18">
-        <label for="age2">18-20</label><br>
-        <input type="radio" id="age3" name="age" value="21">
-        <label for="age3">21+</label><br>
-
-        <p><label for="notes">Extra Meeting Minute Notes:</label></p>
-        <textarea id="notes" name="notes" rows="4" cols="50" placeholder="If I forgot any information, please leave a comment."></textarea>
-        <br>
-
-        <button type="button">Submit</button>
-      </fieldset>
-    </form>
 
     <br><hr>
 
